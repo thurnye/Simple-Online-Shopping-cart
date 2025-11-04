@@ -10,7 +10,7 @@ Include:
 
 - A simple diagram or bullet list showing how data flows between components.
 
-- One short paragraph per main abstraction (CartService, ContextStore, SalesforceCartClientDouble, etc.).
+- One short paragraph per main abstraction (CartService, ContextStore, SalesforceCartClient, etc.).
 
 - How idempotency and context expiry are handled in memory.
 
@@ -48,3 +48,7 @@ For each endpoint, describe:
 End with a short section describing common response wrapper format (e.g., { success, data, message }) used by all endpoints.
 
 For SPEC-A-architecture.md and SPEC-B-api.md Write it in clean Markdown, easy to skim, as if it’s part of a public developer API doc.
+
+
+### followup prompt
+- create the respective files in the root dir of the project 
