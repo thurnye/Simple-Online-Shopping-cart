@@ -1,6 +1,6 @@
 import { cartStore } from "../stores/cart.store.js";
 import { idempotencyStore } from "../stores/idempotency.store.js";
-import { salesforce } from "../clients/salesforceCartClient.double.js";
+import { salesforce } from "../clients/salesforceCartClient.js";
 import type { CartItem, ExperienceCart } from "../types/index.js";
 
 const IDEMPOTENCY_TTL_MS = 10 * 60 * 1000; // 10 minutes
